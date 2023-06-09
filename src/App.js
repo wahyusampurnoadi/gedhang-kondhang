@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Beranda from "./components/Beranda";
+import Menu from "./components/Produk";
+import Kontak from "./components/Kontak";
+import Mitra from "./components/Mitra";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-primary">
+      <Header />
+      <Beranda />
+      <Menu />
+      <Mitra />
+      <Kontak />
     </div>
   );
 }
