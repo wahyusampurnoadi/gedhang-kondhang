@@ -17,11 +17,11 @@ const Beranda = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="mb-8 md:mb-0">
-            <img src={grandOpeningImage} alt="Grand Opening" className="w-3/4 rounded-lg shadow-xl" />
+            <img src={grandOpeningImage} alt="Grand Opening" className="w-3/4 rounded-lg shadow-xl mx-auto" />
           </div>
           <div>
             <p className="text-lg md:text-2xl text-gray-800 leading-relaxed">
-              <span className="font-semibold">Yeeaaayy!!!</span> Gedhang Kondhang telah resmi dibuka pada tanggal 9 Juni 2023. Gedhang Kondhang adalah tempat di mana ada makanan ringan berupa pisang goreng krispi yang ditambah berbagai
+              <span className="font-semibold">Yeeaaayy!!!</span> Gedhang Kondhang telah resmi dibuka pada tanggal 7 Juni 2023. Gedhang Kondhang adalah tempat di mana ada makanan ringan berupa pisang goreng krispi yang ditambah berbagai
               macam toping.
             </p>
           </div>
